@@ -16,7 +16,7 @@ DB_CONFIG = {
 }
 
 # 数据集路径
-DATA_PATH = '/mnt/c/Users/yuanjian/Downloads/movie'
+DATA_PATH = './data/movie'
 
 # 批量插入大小
 BATCH_SIZE = 1000
