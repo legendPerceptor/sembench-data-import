@@ -7,7 +7,7 @@
 -- 电影信息表
 CREATE TABLE IF NOT EXISTS movies (
     id VARCHAR(255) PRIMARY KEY,
-    title VARCHAR(1000) NOT NULL,
+    title VARCHAR(1000),
     audience_score INTEGER,
     tomato_meter INTEGER,
     rating VARCHAR(50),
